@@ -1,0 +1,48 @@
+{
+  "entries": {
+    "battery_power": {
+      "startAddress": 41430,
+      "size": 2,
+      "scaleFactor": 1.0,
+      "formula": "x / 1000",
+      "parameterType": {
+        "primitive": "int32"
+      },
+      "operationType": "READ_HOLDING_REGISTER",
+      "byteOrder": "BIG_ENDIAN"
+    },
+    "pv_power": {
+      "startAddress": 41399,
+      "size": 2,
+      "scaleFactor": 1.0,
+      "formula": "x / 1000",
+      "parameterType": {
+        "primitive": "int32"
+      },
+      "operationType": "READ_HOLDING_REGISTER",
+      "byteOrder": "BIG_ENDIAN"
+    },
+    "battery_soc": {
+      "startAddress": 41429,
+      "size": 1,
+      "scaleFactor": 1.0,
+      "formula": "",
+      "parameterType": {
+        "primitive": "int16"
+      },
+      "operationType": "READ_HOLDING_REGISTER",
+      "byteOrder": "BIG_ENDIAN"
+    },
+    "grid_power": {
+      "startAddress": 41017,
+      "size": 2,
+      "scaleFactor": 1.0,
+      "formula": "x / 1000",
+      "parameterType": {
+        "primitive": "int32"
+      },
+      "operationType": "READ_HOLDING_REGISTER",
+      "byteOrder": "BIG_ENDIAN"
+    }
+  }
+}
