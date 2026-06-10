@@ -13,8 +13,8 @@
     "battery_power": {
       "startAddress": 41430,
       "size": 2,
-      "scaleFactor": 1.0,
-      "formula": "x / 1000",
+      "scaleFactor": 0.001,
+      "formula": "x",
       "parameterType": {
         "primitive": "int32"
       },
